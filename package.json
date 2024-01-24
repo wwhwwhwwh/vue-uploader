@@ -1,14 +1,14 @@
 {
-  "name": "vue-simple-uploader",
+  "name": "@wwwhwwhwwh/vue-simple-uploader",
   "version": "0.7.6",
   "description": "A Vue.js upload component powered by simple-uploader.js",
   "main": "dist/vue-uploader.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/simple-uploader/vue-uploader.git"
+    "url": "https://github.com/wwwhwwhwwh/vue-uploader.git"
   },
-  "bugs": "https://github.com/simple-uploader/vue-uploader/issues",
-  "homepage": "https://github.com/simple-uploader/vue-uploader",
+  "bugs": "https://github.com/wwwhwwhwwh/vue-uploader/issues",
+  "homepage": "https://github.com/wwwhwwhwwh/vue-uploader",
   "author": "dolymood@gmail.com",
   "license": "MIT",
   "scripts": {
@@ -18,7 +18,7 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs"
   },
   "dependencies": {
-    "simple-uploader.js": "^0.5.6"
+    "@wwhwwhwwh/simple-uploader.js": "^0.5.6"
   },
   "peerDependencies": {
     "vue": ">=2.2"
@@ -79,5 +79,9 @@
     "not ie <= 8",
     "Android >= 4.0",
     "iOS >= 8"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
